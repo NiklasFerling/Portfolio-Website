@@ -12,15 +12,16 @@ body {
 h1 {
   text-align: center;
   font-size: 56px;
-  margin: 72px;
+  margin: 72px auto 8px;
 }
 
 h2 {
   max-width: 80%;
   margin: auto;
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -30,6 +31,16 @@ h3 {
 
 p {
   font-size: 20px;
+  line-height: 30px;
+}
+
+p.intro {
+  margin: 48px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 80px;
+  letter-spacing: 2px;
 }
 
 img {
@@ -129,6 +140,10 @@ footer i {
 .cta i {
   margin-right: 24px;
   font-size: 20px;
+}
+
+.details {
+  max-width: 600px;
 }
 
 @media (max-width: 960px) {
