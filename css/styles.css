@@ -94,6 +94,11 @@ footer i {
   gap: 40px;
 }
 
+.project {
+  display: flex;
+  gap: 40px;
+}
+
 .card {
   filter: drop-shadow(0px 0px 20px #3e3e3e);
   margin-top: 32px;
