@@ -97,6 +97,15 @@ footer i {
 .project {
   display: flex;
   gap: 40px;
+  align-items: center;
+}
+
+.project > * {
+  flex: 1;
+}
+
+.project:nth-last-of-type(2) {
+  flex-direction: row-reverse;
 }
 
 .card {
@@ -170,8 +179,18 @@ footer i {
     font-size: 24px;
   }
 
+  .project,
+  .project:nth-last-of-type(2) {
+    flex-direction: column;
+  }
+
+  .details {
+    text-align: center;
+  }
+
   .cta {
     font-size: 16px;
+    margin: auto;
   }
 
   footer div {
